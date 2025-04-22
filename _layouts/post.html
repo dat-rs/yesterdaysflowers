@@ -1,0 +1,42 @@
+---
+---
+
+{% include head.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.description
+page-meta-image=page.image %}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-9">
+            <div class="posts-col">
+                <div class="post">
+                    <div class="post-title">
+                        <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+                    </div>
+                    <div class="post-meta">{{ page.date | date_to_long_string }} ·&nbsp; 
+                        {%- for tag in page.tags -%}
+                            <a href="/tags/{{ tag }}">{{ tag }}</a>&nbsp;  
+                        {%- endfor -%}
+                    </div>
+                    <div class="post-body">
+                        {{ page.content }}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-3 sidebar">
+            <div class="sidebar-section">
+                {% include about.html %}
+            </div>
+            <div class="sidebar-section">
+                {% include tags.html %}
+            </div>
+            <div class="sidebar-section">
+                {% include archive.html %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% include the-end.html %}

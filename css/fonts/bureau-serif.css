@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Bureau Serif";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Bureau Serif Light"), url("/fonts/STKBureauSerif-Light.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Bureau Serif";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Bureau Serif Book"), url("/fonts/STKBureauSerif-Book.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Bureau Serif";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Bureau Serif Medium"), url("/fonts/STKBureauSerif-Medium.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Bureau Serif";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Bureau Serif Semibold"), url("/fonts/STKBureauSerif-SemiBold.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Bureau Serif";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Bureau Serif Bold"), url("/fonts/STKBureauSerif-Bold.woff2") format("woff");
+}
+
+/* Italics */
+
+@font-face {
+  font-family: "Bureau Serif";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Bureau Serif Light Italic"), url("/fonts/STKBureauSerif-LightItalic.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Bureau Serif";
+  font-style: italic;
+  font-weight: 500;
+  src: local("Bureau Serif Book Italic"), url("/fonts/STKBureauSerif-Italic.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Bureau Serif";
+  font-style: italic;
+  font-weight: 600;
+  src: local("Bureau Serif Medium Italic"), url("/fonts/STKBureauSerif-MediumItalic.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Bureau Serif";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Bureau Serif Semibold Italic"), url("/fonts/STKBureauSerif-SemiBoldItalic.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Bureau Serif";
+  font-style: italic;
+  font-weight: 800;
+  src: local("Bureau Serif Bold Italic"), url("/fonts/STKBureauSerif-BoldItalic.woff2") format("woff");
+}
