@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "Marcin Antique";
+    font-style: normal;
+    font-weight: 050;
+    src: local("Marcin Antique Thin"), url("/fonts/MarcinAntiqueStandard-Thin.woff2") format("woff");
+}
+
+@font-face {
+    font-family: "Marcin Antique";
+    font-style: normal;
+    font-weight: 100;
+    src: local("Marcin Antique Extralight"), url("/fonts/MarcinAntiqueStandard-Extralight.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Marcin Antique";
+  font-style: normal;
+  font-weight: 200;
+  src: local("Marcin Antique Light"), url("/fonts/MarcinAntiqueStandard-Light.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Marcin Antique";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Marcin Antique Book"), url("/fonts/MarcinAntiqueStandard-Book.woff2") format("woff");
+}
+
+@font-face {
+    font-family: "Marcin Antique";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Marcin Antique Regular"), url("/fonts/MarcinAntiqueStandard-Regular.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Marcin Antique";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Marcin Antique Medium"), url("/fonts/MarcinAntiqueStandard-Medium.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Marcin Antique";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Marcin Antique Semibold"), url("/fonts/MarcinAntiqueStandard-SemiBold.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Marcin Antique";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Marcin Antique Bold"), url("/fonts/MarcinAntiqueStandard-Bold.woff2") format("woff");
+}
+
+@font-face {
+    font-family: "Marcin Antique";
+    font-style: normal;
+    font-weight: 800;
+    src: local("Marcin Antique Black"), url("/fonts/MarcinAntiqueStandard-Black.woff2") format("woff");
+}
+
+@font-face {
+    font-family: "Marcin Antique";
+    font-style: normal;
+    font-weight: 900;
+    src: local("Marcin Antique Extra"), url("/fonts/MarcinAntiqueStandard-Extra.woff2") format("woff");
+}
+
+@font-face {
+    font-family: "Marcin Antique";
+    font-style: normal;
+    font-weight: 950;
+    src: local("Marcin AntiqueSuper"), url("/fonts/MarcinAntiqueStandard-Super.woff2") format("woff");
+}
+
+/* Italics */
+
+@font-face {
+  font-family: "Marcin Antique";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Marcin Antique Light Italic"), url("/fonts/MarcinAntiqueStandard-LightItalic.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Marcin Antique";
+  font-style: italic;
+  font-weight: 500;
+  src: local("Marcin Antique Book Italic"), url("/fonts/MarcinAntiqueStandard-Italic.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Marcin Antique";
+  font-style: italic;
+  font-weight: 600;
+  src: local("Marcin Antique Medium Italic"), url("/fonts/MarcinAntiqueStandard-MediumItalic.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Marcin Antique";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Marcin Antique Semibold Italic"), url("/fonts/MarcinAntiqueStandard-SemiBoldItalic.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Marcin Antique";
+  font-style: italic;
+  font-weight: 800;
+  src: local("Marcin Antique Bold Italic"), url("/fonts/MarcinAntiqueStandard-BoldItalic.woff2") format("woff");
+}

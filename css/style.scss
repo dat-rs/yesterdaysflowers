@@ -14,9 +14,10 @@ $off-black: #272320;
 $border-radius: 15px;
 
 @import url("fonts/bureau-serif.css");
+@import url("fonts/marcin-antique.css");
 
 @font-face {
-    font-family: "Bureau Serif";
+    font-family: "Marcin Antique";
     src: url();
 }
 
@@ -24,9 +25,10 @@ $border-radius: 15px;
 /* Fundamentals */
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Marcin Antique', sans-serif;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.3rem;
     color: $off-black;
     background-color: $main-color-3;
     margin: 0;
@@ -140,7 +142,8 @@ h4 {
 }
 
 .post-meta  {
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: 400;
     color: gray;
     padding: 10px 15px;
     border-bottom: 1px dotted $main-color-1;
@@ -149,6 +152,7 @@ h4 {
 .post-body {
     font-family: 'Bureau Serif', serif;
     font-weight: 500;
+    line-height: 1.5rem;
     padding: 15px;
     padding-bottom: 10px;
 }
@@ -173,9 +177,9 @@ h4 {
 
 .post-img-caption {
     margin-top: -10px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 13px;
+    font-family: 'Marcin Antique', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
     line-height: 1.5;
 }
 
@@ -202,7 +206,7 @@ h4 {
 .sidebar-section {
     color: #577b80;
     background-color: $off-white;
-    font-size: 13px;
+    font-size: 14px;
     padding: 20px;
     border-radius: $border-radius;
     margin-bottom: 25px;
@@ -211,10 +215,39 @@ h4 {
 
 a.sidebar-a {
     font-weight: 500;
+    display: inline-block;
+
+    color: #000;
+}
+
+a.sidebar-tag {
+    padding-right: 8px;
+    line-height: 1.5rem;
+}
+
+a.sidebar-post {
+    display: inline-block;
+    line-height: 1.2rem;
+    margin-bottom: 15px;
+}
+
+span.sidebar-post-date {
+    font-size: 12px;
+    color: gray;
+    font-weight: 400;
+    display: block;
 }
 
 /* Other */
 
 code {
     color: $main-color-2;
+}
+
+pre {
+    font-family: 'Bureau Serif', serif;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    color: inherit;
 }

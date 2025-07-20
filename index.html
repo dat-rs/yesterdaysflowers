@@ -19,7 +19,9 @@ page-meta-image=page.image %}
                     <div class="post-meta">{{ post.date | date_to_long_string }} ·&nbsp;
                         {%- for tag in post.tags -%}
                         <a href="/tags/{{ tag }}">{{ tag }}</a>&nbsp;
-                        {%- endfor -%}
+                        {%- endfor -%} {%- if post.lang -%}
+                            · {{ post.lang }}
+                        {%- endif -%}
                     </div>
                     <div class="post-body index">
                         {{ post.content }}
